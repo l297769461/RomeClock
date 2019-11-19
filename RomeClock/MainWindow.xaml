@@ -1,0 +1,27 @@
+﻿<Window x:Class="RomeClock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RomeClock"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="罗盘时钟" 
+        Height="350" 
+        Width="350"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        AllowsTransparency="True"
+        Background="Transparent"
+        ShowInTaskbar="False"
+        >
+    <Grid>
+        <Border MouseLeftButtonDown="Grid_MouseLeftButtonDown" 
+            BorderBrush="Black"
+            BorderThickness="1"
+            x:Name="bor"
+            >
+            <local:RomeClockControl x:Name="Clock"></local:RomeClockControl>
+        </Border>
+    </Grid>
+</Window>

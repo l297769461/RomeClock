@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomeClock", "RomeClock\RomeClock.csproj", "{FA6D339B-A9C4-4F1E-8492-556C78C2E7FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomeClockControlLibrary", "RomeClockControlLibrary\RomeClockControlLibrary.csproj", "{CD3AF8E4-2B31-4F10-B2FC-2C1CA295D30C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA6D339B-A9C4-4F1E-8492-556C78C2E7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6D339B-A9C4-4F1E-8492-556C78C2E7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6D339B-A9C4-4F1E-8492-556C78C2E7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6D339B-A9C4-4F1E-8492-556C78C2E7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3AF8E4-2B31-4F10-B2FC-2C1CA295D30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3AF8E4-2B31-4F10-B2FC-2C1CA295D30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3AF8E4-2B31-4F10-B2FC-2C1CA295D30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3AF8E4-2B31-4F10-B2FC-2C1CA295D30C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2EF8E84-D1F9-4C53-BCA4-EF3CDC75BCA1}
+	EndGlobalSection
+EndGlobal
